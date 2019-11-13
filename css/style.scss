@@ -1,0 +1,191 @@
+@import "colors";
+
+body {
+	@include colors('../images/indexcover.jpeg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center center;
+	max-width: 1550px;
+	float: left;
+	.navbar {
+		overflow: hidden;
+		position: fixed;
+		opacity: 0.6;
+		width: 100%;
+	}
+	.container-fluid {
+		
+		
+		.navbar-brand {
+			text-decoration: none;
+			color: #fff;
+			
+			font-size: 25px;
+				
+			float: left;						// our LOGO
+			border-right: solid 1px gray;
+			text-align: center;
+			padding-right: 50px;
+		
+		}
+		.navbar-brand:hover {
+			background-color: brown;
+			
+		}
+		ul {
+				
+			li{
+				border-right: solid 1px gray;
+				padding:0px 50px;
+				text-align: center;
+				font-size: 15px;
+				a {
+					text-decoration: none;
+					
+				}
+				
+				
+			}
+	
+		}	
+		
+	}
+	#heading {
+		text-align: center;
+		font-size: 24px;
+		padding-top: 70px;
+		color: #fff;
+	}
+
+	//Make the color-shade nav bar for different color shades
+
+	.color-box-container {
+		margin-top: 65px;
+		text-align: center;
+		
+		#mostly-used {
+			font-size: 30px;
+			color: #fff;
+			text-align: center;
+			margin: 7px;
+		}
+		.color-box {
+			margin: 0px 0px 9px 5px;
+			display: inline-block;
+			width: 250px;
+			height: 150px;
+			color: #fff;
+			border: 2px solid darkgoldenrod;
+			border-radius: 8px;
+			transition: all .2s;
+			
+			.hex-number {
+				position: relative;
+				top:55px;
+				// left: 85px;
+				font-size: 15px;
+				letter-spacing: 1px;
+				font-weight: bold;
+			}
+		}
+		.color-box:hover {
+			box-shadow: 10px 10px 35px black;
+			transform: scale(1.15, 1.15);					//transform scale
+			cursor: pointer;
+		}
+		a{
+			display: inline;
+			img {
+				width: 500px;
+				height: 500px;
+				margin-top: 50px;
+			}
+		}
+	}
+
+	
+
+	footer {
+		border-top: 3px solid Black;
+		@include colors('../images/footerimage.jpg');
+		background-attachment: fixed;
+		background-size: cover;
+		background-position: center center; 
+		height: auto;
+		position: relative;                               // Footer Height 
+		top: 60px;
+	
+	
+		#social {
+			position: relative;
+			top: 25px;
+			padding-left: 1050px;
+			letter-spacing: 3px;
+			font-size: 3rem;                                    //this is for social heading & subheading
+			color: #fff;
+			font-family: 'Rajdhani', sans-serif;
+		}
+		
+		#profile { 
+			
+			display: inline-block;
+				
+			li {
+				margin: 15px;
+				color: #fff;
+				display: inline-block;
+				font-size: 30px;
+				
+				i {
+					color: #fff;
+					position: relative;
+					left: 475px;;
+					top: 105px;
+				}
+			}	
+		}
+		
+		p.lastline {
+			color: #fff;
+			text-align: center;
+			margin-top: 231px;
+			.fa-heart {
+				color: red;
+			}
+			.fa-mug-hot {
+				color: gray;
+			}
+			a {
+				color: palevioletred;
+				letter-spacing: 2px;
+				text-decoration: none;
+			}
+			a:hover {
+				opacity: 0.8;
+				
+			}
+		}
+		#copyright {
+			color: #fff;
+			position: absolute;
+			top: 317px;
+			left: 1090px;
+		}
+		ul {
+			position: absolute;
+			top: 30px;
+			left: 550px;
+			font-size: 15px;
+			a {
+				color: #fff;
+			}
+			a:hover {
+				border-radius: 20px;;
+				
+			}
+		}
+		
+		
+	}
+	
+}

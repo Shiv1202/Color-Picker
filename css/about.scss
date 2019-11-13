@@ -1,0 +1,50 @@
+@import "colors";
+
+body {
+	@include colors("../images/about.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center center;
+
+	
+	h1 {
+		color: #fff;
+		margin-left: 660px;
+		padding-top: 105px;
+		margin-top: 0px;
+		text-decoration: underline;
+	}
+	h3 {
+		color: bisque;
+		margin-left: 580px;
+		span {
+			font-size: 35px;
+			color: aquamarine
+		}
+
+	}
+	p.intro {
+		
+		width: 900px;
+		height: 300px;
+		color: bisque;
+		margin-left: 359px;
+		font-size: 28px;
+		text-align: justify;
+		border: 5px rgba(241, 50, 50, 0.363) solid;
+		border-radius: 9px;
+		padding: 10px;
+	}
+	.myimage {
+		
+		height: 409px;
+		width: 350px;
+		margin-top: -415px;
+		background-image: url('../images/my-pic.jpg');
+		border: 5px rgba(236, 122, 122, 0.753) solid;
+		border-radius: 15px;
+	}
+	
+		
+	
+}

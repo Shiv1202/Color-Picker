@@ -1,0 +1,15 @@
+body {
+  height: 100%;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 45, 75, 0.6)), to(rgba(0, 0, 0, 0.2))), url("../images/coverimage.jpeg");
+  background-image: linear-gradient(to top, rgba(0, 45, 75, 0.6), rgba(0, 0, 0, 0.2)), url("../images/coverimage.jpeg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+
+iframe {
+  margin: 100px 380px;
+  height: 490px;
+}
+/*# sourceMappingURL=contact.css.map */

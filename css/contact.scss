@@ -1,0 +1,14 @@
+@import "colors";
+
+body {
+	@include colors('../images/coverimage.jpeg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center center;
+}
+
+iframe {
+	margin: 100px 380px;
+	height: 490px;
+
+}
