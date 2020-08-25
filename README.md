@@ -32,7 +32,7 @@
 <ul>
 <li><a href = "https://twitter.com/shivans52205892">Twitter</a></li>
 <li><a href = "https://github.com/Shiv1202">Github</a></li>
-<li><a href = "https://www.instagram.com/productive_365/">Instagram</a></li>
+<li><a href = "https://www.instagram.com/productive_sst/">Instagram</a></li>
 <li><a href = "https://www.linkedin.com/in/shiv1202/">Linkedin</a></li>
 </ul>
 
